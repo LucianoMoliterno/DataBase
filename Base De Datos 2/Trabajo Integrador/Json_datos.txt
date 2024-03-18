@@ -1,0 +1,125 @@
+{
+  "puntoVenta": 1,
+  "nombre": "Farmacia 1",
+  "domicilio": {
+    "calle": "9 de julio",
+    "numero": 1230,
+    "localidad": "Lanus",
+    "provincia": "Buenos aires"
+  },
+  "personas": [
+    {
+      "dni": 35639006,
+      "nombre": "Oscar",
+      "apellido": "Ruina",
+      "domicilio": {
+        "calle": "remedio de escalada",
+        "numero": 3230,
+        "localidad": "Banfield",
+        "provincia": "Buenos aires"
+      },
+      "isEmpleado": true,
+      "obraSocial": {
+        "nombre" : "OSDE",
+        "numeroAfiliado" : 1 
+      }
+    },
+    {
+      "dni": 38786245,
+      "nombre": "Juan",
+      "apellido": "Perez",
+      "domicilio": {
+        "calle": "Malvinas",
+        "numero": 1212,
+        "localidad": "San Nicolas",
+        "provincia": "Buenos aires"
+      },
+      "isEmpleado": true,
+      "obraSocial": {
+        "nombre" : "OSDE",
+        "numeroAfiliado" : 2 
+      }
+    }
+  ],
+  "productos": [
+    {}
+  ],
+  "ventas": [
+    {
+      "numeroTicket": "1",
+      "productoVenta": [
+        {
+          "totalVenta": 4,
+          "precioTotal": 1500,
+          "productos": {
+            "codigo": 1,
+            "tipoProducto": "Alcohol en gel",
+            "descripcion": "70%",
+            "laboratorio": {
+              "id": 1,
+              "domicilio": {
+                "calle": "av centenario",
+                "numero": 1000,
+                "localidad": "Monte chingolo",
+                "provincia": "Buenos aires"
+              }
+            },
+            "precio": 3000
+          }
+        }
+      ],
+      "fecha": "2013-10-21T13:28:06.419Z",
+      "formaPago": 1,
+      "precioTotal": 12000,
+      "vendedor": {
+        "dni": 38786245,
+        "nombre": "Juan",
+        "apellido": "Perez",
+        "domicilio": {
+          "calle": "Malvinas",
+          "numero": 1212,
+          "localidad": "San Nicolas",
+          "provincia": "Buenos aires"
+        },
+        "isEmpleado": true,
+        "obraSocial": {
+          "nombre" : "OSDE",
+         "numeroAfiliado" : 2
+        }
+      },
+      "cobrador": {
+        "dni": 35639006,
+        "nombre": "Oscar",
+        "apellido": "Ruina",
+        "domicilio": {
+          "calle": "remedio de escalada",
+          "numero": 3230,
+          "localidad": "Banfield",
+          "provincia": "Buenos aires"
+        },
+        "isEmpleado": true,
+        "obraSocial": {
+          "nombre" : "OSDE",
+          "numeroAfiliado" : 1
+        }
+      },
+      "cliente": {
+        "dni": 35611222,
+        "nombre": "Alan",
+        "apellido": "Perez",
+        "domicilio": {
+          "calle": null,
+          "numero": null ,
+          "localidad": null,
+          "provincia": null
+        },
+        "isEmpleado": false,
+        "obraSocial": {
+          "nombre" : "OSDE",
+          "numeroAfiliado" : 1
+        }
+        
+      }
+    }
+  ]
+}
