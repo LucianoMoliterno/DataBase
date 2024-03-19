@@ -1,0 +1,11 @@
+Referencia formato JSON
+https://www.json.org/json-es.html
+
+Referencia libreria GSON (Google)
+https://github.com/google/gson/blob/master/UserGuide.md
+
+Referencia JACSON JSON API
+https://github.com/FasterXML/jackson
+
+Articulo comparativo entre GSON y JACKSON
+http://www.doublecloud.org/2015/03/gson-vs-jackson-which-to-use-for-json-in-java/
